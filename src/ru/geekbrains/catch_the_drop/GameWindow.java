@@ -83,7 +83,7 @@ public class GameWindow extends JFrame{
         if(is_drop) {
 //
             // смещение координат для новой капли
-            drop_top = -101;
+            drop_top = -100;
             drop_left = (int) (Math.random() * (game_window.getWidth() - drop.getWidth(null)));
             //увеличение скорости
             drop_v = drop_v + 20;
